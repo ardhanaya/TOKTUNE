@@ -1,0 +1,107 @@
+wrap_width: 34
+margin_between_lines: 0.15
+block_margin: 0.4
+auto_close_seconds: 5.0
+
+loading_opening: 0 #LOADING AWAL
+loading_ending: 9000 #LOADING FALLBACK
+
+lrc_start_minute: 0 #MENIT MULAI LIRIK LRC
+lrc_start_second: 0 #DETIK MULAI LIRIK LRC
+
+show_time_display: false #TAMPILKAN WAKTU SAAT LIRIK DIPUTAR (MM:SS)
+
+# EFEK VISUAL UNTUK VIDEO KONTEN
+enable_cursor_animation: true #CURSOR BERPUTAR (|, /, -, \) SAAT ANIMASI
+enable_progress_indicator: true #PROGRESS BAR DI AKHIR TEKS
+enable_highlight_effect: true #HIGHLIGHT KATA YANG SEDANG DITAMPILKAN
+cursor_style: "spinning" #spinning, blinking, pulse
+progress_style: "bar" #bar, dots
+
+default_genre: pop
+genres:
+  rnb_soul:
+    color: "\e[95m"
+    speed: 0.035
+    effect: smooth_fade
+    description: R&B / Soul — smooth, warm, slow fade-in
+  jazz:
+    color: "\e[94m"
+    speed: 0.06
+    effect: swing
+    description: Jazz — swing timing, subtle wander
+  blues:
+    color: "\e[34m"
+    speed: 0.055
+    effect: wave
+    description: Blues — slow, mournful wave
+  childrens:
+    color: "\e[96m"
+    speed: 0.045
+    effect: bounce
+    description: Children's — playful bounce and bright color
+  classical:
+    color: "\e[97m"
+    speed: 0.085
+    effect: elegant_fade
+    description: Classical — slow and stately
+  country:
+    color: "\e[33m"
+    speed: 0.05
+    effect: typewriter
+    description: Country — clear typewriter style
+  easy_listening:
+    color: "\e[37m"
+    speed: 0.065
+    effect: smooth
+    description: Easy Listening — mellow and unobtrusive
+  electronic:
+    color: "\e[96m"
+    speed: 0.01
+    effect: glitch
+    description: Electronic — fast, glitchy, bright
+  folk_world:
+    color: "\e[92m"
+    speed: 0.05
+    effect: vibrate
+    description: Folk / World — organic, gentle vibrato
+  hiphop:
+    color: "\e[93m"
+    speed: 0.012
+    effect: shake
+    description: Hip Hop — smooth, rhythmic, punchy
+  rap:
+    color: "\e[91m"
+    speed: 0.008
+    effect: heavy_shake
+    description: Rap — fast, aggressive, intense
+  holiday_religious:
+    color: "\e[33m"
+    speed: 0.04
+    effect: glow
+    description: Holiday / Religious — warm glow
+  latin:
+    color: "\e[91m"
+    speed: 0.035
+    effect: salsa
+    description: Latin — rhythmic, lively
+  pop:
+    color: "\e[95m"
+    speed: 0.02
+    effect: bounce
+    description: Pop — bright, per-word bounce
+  reggae:
+    color: "\e[92m"
+    speed: 0.045
+    effect: reggae_wave
+    description: Reggae — laid-back, offbeat wave
+  rock:
+    color: "\e[31m"
+    speed: 0.013
+    effect: heavy_shake
+    description: Rock — aggressive, strong hits
+  soundtrack_library:
+    color: "\e[97m"
+    speed: 0.05
+    effect: cinematic
+    description: Soundtrack / Library — cinematic, neutral
